@@ -1,0 +1,12 @@
+name = Flag Bookmark
+description = Provides an example bookmark flag and supporting views.
+core = 7.x
+dependencies[] = flag
+package = Flags
+
+; Information added by drupal.org packaging script on 2012-10-19
+version = "7.x-3.0-alpha2+14-dev"
+core = "7.x"
+project = "flag"
+datestamp = "1350651348"
+
