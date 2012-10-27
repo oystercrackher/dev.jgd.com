@@ -138,7 +138,9 @@ function articles_field_default_fields() {
         'active' => 1,
         'module' => 'text',
         'settings' => array(
-          'rows' => '20',
+
+          'rows' => '5',
+
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
