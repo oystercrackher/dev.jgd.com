@@ -15,7 +15,7 @@ function articles_menu_default_menu_links() {
     'menu_name' => 'navigation',
     'link_path' => 'node/add/article',
     'router_path' => 'node/add/article',
-    'link_title' => 'Articles',
+    'link_title' => 'Article',
     'options' => array(
       'attributes' => array(
         'title' => 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.',
@@ -31,7 +31,7 @@ function articles_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Articles');
+  t('Article');
 
 
   return $menu_links;

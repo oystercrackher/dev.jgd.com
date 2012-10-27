@@ -1,12 +1,11 @@
 name = Articles
 core = 7.x
 package = Features
+php = 5.2.4
 dependencies[] = features
 dependencies[] = image
 dependencies[] = menu
-dependencies[] = node
 dependencies[] = taxonomy
-dependencies[] = text
 features[features_api][] = api:1
 features[field][] = comment-comment_node_article-comment_body
 features[field][] = node-article-body
